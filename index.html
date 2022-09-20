@@ -34,7 +34,7 @@
             </ul>
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
               <button class="btn btn-daftar poppins me-md-2" type="button">Daftar</button>
-              <button class="btn btn-login poppins bg-hijau" type="button">Login</button>
+              <button onclick="location.href='login.html'" class="btn btn-login poppins bg-hijau" type="button">Login</button>
             </div>
           </div>
         </div>
@@ -43,10 +43,10 @@
 
     <!-- jumbotron -->
     <section class="container my-5 py-3">
-      <img src="./assets/images/jumbotron.png" style="z-index: 1 ;position: relative;" class="float-end my-3" height="450px" alt="jumbotron">
+      <img src="./assets/images/jumbotron.png" style="z-index: 1 ;position: relative;" class="float-end my-3 d-none d-md-block" width="60%" alt="jumbotron">
       <div class="float-start jbt">
         <h2 class="nunito">Jasa Pembuatan Website</h2>
-        <h1 class="nunito">Website Anda Siap Mendunia</h1>
+        <h1 class="nunito bg-white">Website Anda Siap Mendunia</h1>
         <h3 class="nunito">Hanya dalam 36 jam</h3>
         <button class="btn-pesan nunito my-5" type="button">Pesan Sekarang<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
           <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
@@ -166,7 +166,7 @@
         <div class="container">
           <div class="row row-cols-2 p-5">
             <!-- edu -->
-            <div class="col">
+            <div class="col-6">
               <h3 class="poppins">
                 Website Pendidikan
               </h3>
@@ -179,14 +179,14 @@
               </ul>
               <a href="#" class="poppins detail">Detail -></a>
             </div>
-            <div class="col text-center m-auto">
+            <div class="col-6 text-center m-auto">
               <img src="./assets/images/lp_edu.png" width="50%" alt="logo edu">
             </div>
             <!-- bisnis -->
-            <div class="col text-center m-auto">
+            <div class="col-6 text-center m-auto">
               <img src="./assets/images/lp_business.png" width="50%" alt="logo bisnis">
             </div>
-            <div class="col">
+            <div class="col-6">
               <h3 class="poppins">
                 Website Business
               </h3>
@@ -200,7 +200,7 @@
               <a href="#" class="poppins detail">Detail -></a>
             </div>
             <!-- bisnis -->
-            <div class="col">
+            <div class="col-6">
               <h3 class="poppins">
                 Website Custom
               </h3>
@@ -213,7 +213,7 @@
               </ul>
               <a href="#" class="poppins detail">Detail -></a>
             </div>
-            <div class="col text-center m-auto">
+            <div class="col-6 text-center m-auto">
               <img src="./assets/images/lp_custom.png" width="50%" alt="logo edu">
             </div>
           </div>
@@ -266,7 +266,7 @@
     <!-- end klien -->
 
     <!-- footer -->
-    <footer class="bg-dark bg-opacity-75 text-white py-5" id="about">
+    <footer class="bg-dark bg-opacity-75 text-white pt-5 pb-2" id="about">
       <div class="container">
         <h2 class="logo-brand">tukangweb.com</h2>
         <h5>Landing page ini dibuat untuk memenuhi tugas Studi Independen Bersertifikat Full Stack Web Developer PT. Arkatama Multi Solusindo. Pada penerapannya, bagian ini dapat diisi ‘About US’ yang berisi deskripsi terkait jasa web ini, informasi pengelolaan atau pemilik ataupun detail-detail lainnya. </h5>
@@ -304,6 +304,7 @@
     <!-- end footer -->
 
     <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
     <script src="./assets/js/bootstrap.js"></script>
     <script src="./assets/js/bootstrap.bundle.js"></script>
 </body>
